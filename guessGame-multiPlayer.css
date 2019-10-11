@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #8E0E00;
+    background: -webkit-linear-gradient(to left, #1F1C18, #8E0E00);
+    background: linear-gradient(to left, #1F1C18, #8E0E00);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+#wrapper-container{
+    margin: 1% 8%;
+}
+#wrapper{
+   float: right;
+    max-width: 40%;
+    background: #292929;
+    padding-top: 2%;
+    color: #fff;
+    border: 1px solid #000;
+    border-right: 1px solid #353535;
+    border-bottom: 1px solid #353535;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 16px 17px -11px rgba(0,0,0,0.9);
+    -moz-box-shadow: 4px 16px 17px -11px rgba(0,0,0,0.9);
+    box-shadow: 4px 16px 17px -11px rgba(0,0,0,0.9);
+}
+#topbar{
+    margin: 0 auto;
+    margin-bottom: 6%;
+    width: 90%;
+    height: 2%;
+    padding: 1%;
+    border-radius: 5px;
+    outline: 1px solid #ddd;
+    outline: 1px solid #111;
+    border-top: 1px solid #555;
+    background: #1e1e1e;
+}
+h1{
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 250%;
+    text-shadow: 0px 0px 0 #D6D5D4,0px 1px 0 #D6D5D4,0px 2px 0 rgb(118,118,-137),
+        0px 3px  0 rgb(73,73,-182),0px 4px 3px rgba(0,0,0,0.13),0px 4px 1px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,.2);
+}
+#playArea{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5%;
+    padding: 2%;
+    letter-spacing: .6px;
+    color: #D6D5D4;
+    padding: 10px;
+    background: #111;
+    border: 1px solid #000;
+    border-right: 1px solid #353535;
+    border-bottom: 1px solid #353535;
+    border-radius: 5px;
+}
+#hintText{
+    font-size: 140%;
+    font-stretch: ultra-expanded;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0px 0px 0 #D6D5D4,0px 1px 0 #D6D5D4,0px 2px 0 rgb(118,118,-137),
+        0px 3px  0 rgb(73,73,-182),0px 4px 3px rgba(0,0,0,0.13),0px 4px 1px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,.2);
+}
+img{
+    margin: 5%;
+    width: 30%;
+    border-radius: 50%;
+    border: 8px solid #353535;
+}
+#reset, #guess, #newGame, #hint{
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+    margin: 2% 0.5%;
+    color: white;
+    background: #0DAAED;
+    border: 1px solid #092F6D;
+    border-radius: 15%;
+    -webkit-box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.22);
+    box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.22);
+}
+#pwrapper-container{
+    margin: 0 8%;   
+}
+#pWrapper{
+    float: left;
+     max-width: 90%;
+     background: #292929;
+     padding-top: 2%;
+     color: #fff;
+     border: 1px solid #000;
+     border-right: 1px solid #353535;
+     border-bottom: 1px solid #353535;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     border-radius: 5px;
+     -webkit-box-shadow: 4px 16px 17px -11px rgba(0,0,0,0.9);
+     -moz-box-shadow: 4px 16px 17px -11px rgba(0,0,0,0.9);
+     box-shadow: 4px 16px 17px -11px rgba(0,0,0,0.9);
+ }
+ #ptopbar{
+    margin: 0 auto;
+    margin-bottom: 6%;
+    max-width: 90%;   
+    height: 2%;
+    padding: 1%;
+    border-radius: 5px;
+    outline: 1px solid #ddd;
+    outline: 1px solid #111;
+    border-top: 1px solid #555;
+    background: #1e1e1e;
+}
+#scoreArea{
+    margin: 0 auto;
+    max-width: 90%;
+    text-align: center;
+    margin-top: 5%;
+    padding: 2%;
+    letter-spacing: .6px;
+    color: #D6D5D4;
+    padding: 10px;
+    background: #111;
+    border: 1px solid #000;
+    border-right: 1px solid #353535;
+    border-bottom: 1px solid #353535;
+    border-radius: 5px;
+}
+#p1, #p2, #p3, #p4, #p5{
+    margin: 0 auto;
+    text-align: center;
+    padding: 2%;
+    color: white;
+    background: #0DAAED;
+    border: 1px solid #092F6D;
+    border-radius: 15%;
+    -webkit-box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.22);
+    box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.22);
+}
+.divTable{
+	display: table;
+	max-width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	max-width: 100%;
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	max-width: 100%;
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	max-width: 100%;
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	max-width: 100%;
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	max-width: 100%;
+	display: table-row-group;
+}

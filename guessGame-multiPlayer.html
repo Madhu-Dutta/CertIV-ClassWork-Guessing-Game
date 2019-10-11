@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Maddhu Dutta">
+    <title>Guessing Game - Multi Player</title>
+    <link rel="stylesheet" type="text/css" href="guessGame-multiPlayer.css">
+    <link rel="icon" type="text/css" href="img/icon.jpg">
+    <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
+
+
+</head>
+<body>
+<div id="wrapper-container">
+<div id="wrapper">
+    <div id="topbar">
+        <h1>NUMBER GUESSING GAME</h1>
+        <div id="playArea">
+            <p id="hintText">Enter a guess from 1-100. You get 100 attempts</p>
+            <img src="img/guess.jpg" alt="Image not loaded"/>
+            <div class="inputForm">
+                <button id="guess">GUESS</button>
+                <button id="reset">RESET</button>
+                <button id="newGame">New Game</button>
+                <button id="hint">HINT</button>
+            </div>            
+        </div>
+    </div>    
+</div>
+<div id="pwrapper-container">
+        <div id="pWrapper"> 
+            <div id="ptopbar" >
+            <h1>Player Scores</h1>
+            <div id="scoreArea" style="float:left;">
+            <button id="p1">Player 1</button> 
+            <input type="text" id="inputNum1" placeholder="Number between 1-100" /><br><br>
+            <button id="p2">Player 2</button> 
+            <input type="text" id="inputNum2" placeholder="Number between 1-100" /><br><br>
+            <button id="p3">Player 3</button> 
+            <input type="text" id="inputNum3" placeholder="Number between 1-100" /><br><br>
+            <button id="p4">Player 4</button> 
+            <input type="text" id="inputNum4" placeholder="Number between 1-100" /><br><br>
+            <button id="p5">Player 5</button> 
+            <input type="text" id="inputNum5" placeholder="Number between 1-100" /><br><br>
+
+            <div class="divTable" style="width: 100%;border: 4px solid #000;float:left;">
+                    <div class="divTableBody">
+                    <div class="divTableRow">
+                    <div class="divTableCell" >Player Name</div>
+                    <div class="divTableCell" >Previous guess</div>
+                    <div class="divTableCell" >Attempts</div>
+                    <div class="divTableCell" >Wins</div>
+
+                    </div>
+                    <div class="divTableRow">
+                    <div class="divTableCell p1Name">&nbsp;</div>
+                    <div class="divTableCell p1guesses">&nbsp;</div>
+                    <div class="divTableCell attempts1">&nbsp;</div>
+                    <div class="divTableCell numWin1">&nbsp;</div>
+                    </div>
+                    <div class="divTableRow">
+                    <div class="divTableCell p2Name">&nbsp;</div>
+                    <div class="divTableCell p2guesses">&nbsp;</div>
+                    <div class="divTableCell attempts2">&nbsp;</div>
+                    <div class="divTableCell numWin2">&nbsp;</div>
+                    </div>
+                    <div class="divTableRow">
+                    <div class="divTableCell p3Name">&nbsp;</div>
+                    <div class="divTableCell p3guesses">&nbsp;</div>
+                    <div class="divTableCell attempts3">&nbsp;</div>
+                    <div class="divTableCell numWin3">&nbsp;</div>
+                    </div>
+                    <div class="divTableRow">
+                    <div class="divTableCell p4Name">&nbsp;</div>
+                    <div class="divTableCell p4guesses">&nbsp;</div>
+                    <div class="divTableCell attempts4">&nbsp;</div>
+                    <div class="divTableCell numWin4">&nbsp;</div>
+                    </div>
+                    <div class="divTableRow">
+                    <div class="divTableCell p5Name">&nbsp;</div>
+                    <div class="divTableCell p5guesses">&nbsp;</div>
+                    <div class="divTableCell attempts5">&nbsp;</div>
+                    <div class="divTableCell numWin5">&nbsp;</div>
+                    </div>
+                    </div>
+                </div>
+            
+                    
+              </body>
+        
+<script src="guessGame-multiPlayer.js"></script>
+</body>
+</html>
